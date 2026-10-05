@@ -1,0 +1,39 @@
+body { /* everyhting in the body-->*/
+  font-family: Arial, sans-serif; /* make the font arial and if not able make it sans-serif*/
+  margin: 0; /* remove space from outside*/
+  background-color: white; /* background colour of webpage*/
+  color: black; /* colour of text */
+  
+}
+header { 
+  text-align: center; /* controls where the title is horizontally*/
+  padding: 60px 20px; /* creates a horizontal box around the title 60 top and bottom 20 left and right gives space around elements*/
+  background-color: black;
+  color: white;
+  font-weight: 60px;
+  
+}
+
+header h1 { /* specific about what you want customised rather than all the contents in that section, so fo here it header 1*/
+  color: white;
+  font-size: 60px
+}
+
+main {
+  max-width: 800px; /* max width of website as everyhting will be overy large on the webpage*/
+  margin: 40px auto
+  padding: 0 20px;
+}
+
+section {
+  background-color:white;
+  padding: 30px; /* gives space around each element in the section so its it doesnt crowded*/
+  margin-bottom: 20px; /* gives a 20 space between each section*/
+  border-radius: 10px;
+  text-align: center/* gives a rounded border around each section*/
+}
+
+footer { 
+  text-align: center;
+  padding: 30px;
+}
